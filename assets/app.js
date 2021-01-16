@@ -28,3 +28,13 @@ $(document).ready(function () {
     $('.item[data-id="' + current + '"]').addClass("active");
   }
 });
+
+$(document).ready(function(){
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:30,
+    items:3,
+    nav:true,
+    navText:["",""],
+  });
+});

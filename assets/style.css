@@ -1,6 +1,6 @@
 body{
 	margin: 0;
-	
+	background-color: black;
 }
 
 .intro{
@@ -120,8 +120,27 @@ header .overlay {
 .TW{
 	font-style:#FFF;
 }
-
-
+.btn-dark{
+	border: 1px solid gold;
+	background-color: black;
+}
+hr{
+	background-color: white;
+}
+li{
+  text-align: left;
+}
+.card-body a{
+  color: goldenrod;
+  font-weight: lighter;
+}
+.card-body{
+  font-weight: bold;
+  text-align: start;
+}
+.card{
+  background-color: black;
+}
 
 @media (min-width:800px){
  	.carousel-control-prev,
