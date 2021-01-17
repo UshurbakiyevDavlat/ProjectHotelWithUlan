@@ -36,5 +36,19 @@ $(document).ready(function(){
     items:3,
     nav:true,
     navText:["",""],
+    responsive:{
+          0:{
+              items:1,
+            
+              
+          },
+          700:{
+                items:2,
+                
+              
+          },
+        
+          
+    }
   });
 });
