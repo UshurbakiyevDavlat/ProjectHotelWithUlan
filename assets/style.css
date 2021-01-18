@@ -113,10 +113,7 @@ header .overlay {
 }
 */
 
-.font{
-	font-family: 'Lato', sans-serif;
-	text-transform: uppercase;
-}
+
 .TW{
 	font-style:#FFF;
 }
@@ -135,7 +132,7 @@ li{
   font-weight: lighter;
 }
 .card-body{
-  font-weight: bold;
+
   text-align: start;
 }
 .card{
@@ -185,6 +182,7 @@ li{
  }
 .card-title{
 	text-transform: uppercase; 
+	font-family: 'Libre Baskerville', serif;
 }
 .Hotels img{
   height: 500px;
@@ -207,7 +205,7 @@ li{
 
 @media (min-width:768px) and (max-width:991px){
   .Cas img{
-    width: 200px;
+    width: 100%;
   }
 
   .Offers img{
@@ -228,52 +226,61 @@ li{
   .card-body button{
     padding-bottom: 10px;
   }
+
   .col-md-6.Logo img{
       width: 300px;
       height: 250px;
   }
 
+/*
   .col-md-6 img{
     margin: 0;
     width: 360px;
   
   }
-  
+ 
   .col-md-8 {
     margin-left: 10%;
     margin-top: 20%;
     
-  }
+  }*/
+
+
   .Guest img{
     width: 100%;
   }
 
    .Hotels img{
-  height: 300px;
+  height: 280px;
    }
 }
-@media (min-width:320px) and (max-width:374px){
-  .Cas img{
-    width: 250px;
-  }
 
-  
-  .card-body{
-    height: 450px;
-   
-  }
+@media (min-width:320px) and (max-width:374px){
+	  .Cas img{
+	    width: 100%;
+	  }
+
+	  
+	  .card-body{
+	    height: 450px;
+	   
+	  }
   
 }
 @media (min-width:375px) and (max-width:425px){
 .Cas img{
-  width: 300px;
+  width: 100%;
 }
+
+
+
 }
 
 @media (min-width:425px) and (max-width:766px){
   .Cas img{
     width: 360px;
   }
+
   .Offers img{
     width: 600px;
   }
@@ -282,15 +289,69 @@ li{
 
 @media (min-width:1024px) and (max-width: 1440px){
     body{
-    width: 119%;
+    width: 118%;
     }
+    .Hotels img{
+  height: 450px;
+   }
+
 }
 
 @media(min-width:1440px){
   .Cas img{
-    width: 335px;
+    width: 100%;
   }
+  .img_wrap {
+  width: 300px;
+  height: 350px;
+
+}
+
+.img_wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 0 0;
+}
 }
 
 
 
+
+@media (max-width:280px){
+	.Cas img{
+	    width: 100%;
+	  }
+
+	.card-body{
+	    height: 450px;
+	   
+	  }
+
+  	.img_wrap {
+  	width: 100px;
+ 	height: 150px;
+}
+
+	.img_wrap img {
+  	width: 100%;
+  	height: 100%;
+  	object-fit: cover;
+ 	object-position: 0 0;
+}
+}
+
+.text-style{
+	text-align: justify; 
+	font-size: 15px;
+}
+
+
+
+.font{
+	font-family: 'Libre Baskerville', serif;
+}
+.fonts{
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+}
