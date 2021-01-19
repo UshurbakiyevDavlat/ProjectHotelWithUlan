@@ -1,0 +1,33 @@
+body{
+	margin: 0;
+	background-color: black;
+}
+
+.flick {
+    margin: 0;
+    padding: 0;
+}
+
+.text-style{
+	text-align: justify; 
+	font-size: 15px;
+}
+
+.font{
+	font-family: 'Libre Baskerville', serif;
+}
+.fonts{
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+}
+
+.carousel-item:after {
+  content:"";
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:rgba(0,0,0,0.4);
+}
+
