@@ -28,6 +28,26 @@ body{
   bottom:0;
   left:0;
   right:0;
-  background:rgba(0,0,0,0.4);
+  background:rgba(51, 45, 39,0.5);
 }
 
+
+
+.carousel-font{
+    font-family: 'Nanum Gothic', sans-serif;
+    text-transform: capitalize ;
+    font-size: 40px;
+
+}
+
+hr{
+  background-color:#406bc3;
+}
+
+
+
+@media(min-width:1440px){
+.carousel-caption{
+  padding-bottom: 200px;
+}
+}
