@@ -176,8 +176,8 @@ li{
 	text-align: center;
 }
 .col-md-6.Logo img{
-  width: 360px;
-  height: 250px;
+  width: 75%;
+  height: 100%;
 }
  }
 .card-title{
@@ -203,7 +203,7 @@ li{
   
 }
 
-@media (min-width:768px) and (max-width:991px){
+@media (min-width:768px) and (max-width:1175px){
   .Cas img{
     width: 100%;
   }
@@ -212,6 +212,10 @@ li{
     height: 500px;
   }
   
+  .col-md-6.Logo img{
+  width: 100%;
+  height: 100%;
+}
 }
 
 @media(max-width:767px){
@@ -255,22 +259,8 @@ li{
    }
 }
 
-@media (min-width:320px) and (max-width:374px){
-	  .Cas img{
-	    width: 100%;
-	  }
 
-	  
-	  .card-body{
-	    height: 450px;
-	   
-	  }
-  
-}
-@media (min-width:375px) and (max-width:425px){
-.Cas img{
-  width: 100%;
-}
+
 
 
 
@@ -313,6 +303,12 @@ li{
   object-fit: cover;
   object-position: 0 0;
 }
+
+.col-md-6.Logo img{
+  width: 75%;
+  height: 100%;
+}
+
 }
 
 
