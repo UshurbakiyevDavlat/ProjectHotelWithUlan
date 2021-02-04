@@ -31,7 +31,9 @@ body{
   background:rgba(51, 45, 39,0.5);
 }
 
-
+.date-style{
+   border-radius: 0px;
+}
 
 .carousel-font{
     font-family: 'Nanum Gothic', sans-serif;
