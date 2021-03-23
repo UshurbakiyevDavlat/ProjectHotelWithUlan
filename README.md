@@ -1,2 +1,2 @@
 # ProjectHotelWithUlan
-Project to our , my and Ulans , portfolio
+  For training Bootstrap skill.
