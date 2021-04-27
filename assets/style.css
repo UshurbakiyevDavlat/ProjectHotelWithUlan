@@ -1,0 +1,354 @@
+body{
+	margin: 0;
+	background-color: black;
+}
+
+.intro{
+	max-height: 90vh;
+	overflow: hidden;
+}
+
+.intro:after{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 0%;
+	left: 0;
+	z-index: 2;
+}
+.intro_content{
+	display: flex;
+	flex-direction: column;
+	justify-content: center; 
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 3;
+}
+
+.intro_title{
+	margin: 0;
+	font-size: 45px;
+	color: #fff;
+	text-align:center;
+}
+.containers{
+	width: 100%;
+	max-width: 1200px	;
+	margin: 0 auto;
+}
+
+.video{
+	position: relative;
+	padding-bottom: 56.25%
+}
+.video_media{
+	width: 100%;
+	height: auto;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.flick {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+  position: relative;
+  background-color: black;
+  height: 90vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+/*
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
+*/
+
+
+.TW{
+	font-style:#FFF;
+}
+.btn-dark{
+	border: 1px solid gold;
+	background-color: black;
+}
+hr{
+	background-color: white;
+}
+li{
+  text-align: left;
+}
+.card-body a{
+  color: goldenrod;
+  font-weight: lighter;
+}
+.card-body{
+
+  text-align: start;
+}
+.card{
+  background-color: black;
+}
+
+@media(min-width:991px){
+  .col-md-6{
+    margin: 0;
+  }
+  .col-md-6 img{
+    height: 400px;
+  }
+
+  .Cas img{
+    width: 280px;
+    }
+ 
+}
+
+@media (min-width:800px){
+ 	.carousel-control-prev,
+	.carousel-control-next{
+      margin-right:-15%;
+      margin-left:-15%;
+}
+ }
+
+.TR{
+	text-align: right;
+}
+
+.TL{
+	text-align: left;
+}
+@media (max-width: 991.98px) { 
+.TR{
+	text-align: center;
+}
+.TL{
+	text-align: center;
+}
+.col-md-6.Logo img{
+  width: 75%;
+  height: 100%;
+}
+ }
+.card-title{
+	text-transform: uppercase; 
+	font-family: 'Libre Baskerville', serif;
+}
+.Hotels img{
+  height: 500px;
+  margin-top: 5%;
+   }
+
+   
+
+.btn-cont {
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+@media (min-width:768px) and (max-width:1175px){
+  .Cas img{
+    width: 100%;
+  }
+
+  .Offers img{
+    height: 500px;
+  }
+  
+  .col-md-6.Logo img{
+  width: 100%;
+  height: 100%;
+}
+}
+
+@media(max-width:767px){
+  .col-md-4{
+    margin:2%;
+  }
+
+  .card-body{
+    height: 350px;
+   
+  }
+  .card-body button{
+    padding-bottom: 10px;
+  }
+
+  .col-md-6.Logo img{
+      width: 300px;
+      height: 250px;
+  }
+
+/*
+  .col-md-6 img{
+    margin: 0;
+    width: 360px;
+  
+  }
+ 
+  .col-md-8 {
+    margin-left: 10%;
+    margin-top: 20%;
+    
+  }*/
+
+
+  .Guest img{
+    width: 100%;
+  }
+
+   .Hotels img{
+  height: 280px;
+   }
+}
+
+
+
+
+
+
+}
+
+@media (min-width:425px) and (max-width:766px){
+  .Cas img{
+    width: 360px;
+  }
+
+  .Offers img{
+    width: 600px;
+  }
+
+}
+
+@media (min-width:1024px) and (max-width: 1440px){
+    body{
+    width: 118%;
+    }
+    .Hotels img{
+  height: 450px;
+   }
+
+}
+
+@media(min-width:1440px){
+  .Cas img{
+    width: 100%;
+  }
+  .img_wrap {
+  width: 300px;
+  height: 350px;
+
+}
+
+.img_wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 0 0;
+}
+
+.col-md-6.Logo img{
+  width: 75%;
+  height: 100%;
+}
+
+}
+
+
+
+
+@media (max-width:280px){
+	.Cas img{
+	    width: 100%;
+	  }
+
+	.card-body{
+	    height: 450px;
+	   
+	  }
+
+  	.img_wrap {
+  	width: 100px;
+ 	height: 150px;
+}
+
+	.img_wrap img {
+  	width: 100%;
+  	height: 100%;
+  	object-fit: cover;
+ 	object-position: 0 0;
+}
+}
+
+.text-style{
+	text-align: justify; 
+	font-size: 15px;
+}
+
+
+
+.font{
+	font-family: 'Libre Baskerville', serif;
+}
+.fonts{
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+}
+
